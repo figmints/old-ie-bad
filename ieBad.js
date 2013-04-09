@@ -1,0 +1,8 @@
+$(function() {
+	$('head').append('<link rel="stylesheet" href="http://assets.figmints.com/ieBad/styles.css" type="text/css" />');
+	$('body').prepend("<div class='ieBad'><div class='wrapper'><h1 class='arial'>oh no!</h1><div class='topRight'><p>To view this page correctly, please consider downloading a more current browser:</p><div class='browser first'><img src='http://assets.figmints.com/ieBad/chrome.jpg' alt='Google Chrome®' title='Google Chrome&#174;' /><div class='text'><div class='title'>Google Chrome</div><a href='https://www.google.com/intl/en/chrome/browser/' target='_blank'><div class='action'>Download Now <img src='http://assets.figmints.com/ieBad/download.jpg'></div></a></div></div><div class='browser last'><img src='http://assets.figmints.com/ieBad/ie.jpg' alt='Internet Explorer®' title='Internet Explorer®' /><div class='text'><div class='title'>Internet Explorer</div><a href='http://windows.microsoft.com/en-US/internet-explorer/download-ie' target='_blank'><div class='action'>Download Now <img src='http://assets.figmints.com/ieBad/download.jpg'></div></a></div></div></div><div class='bottom'><p>You are currently viewing this page in a very old version of <b>Microsoft Internet Explorer (v.7 or earlier)</b>. Elements of this website will not look the way you would normally expect. You can now download the most current version of Microsoft Internet Explorer <b>FOR FREE</b> at the link above. However, may we suggest <b>Google Chrome</b> – A much better, <b>FREE</b> browser!</p></div><div class='close'><b>Close window</b>, and view site anyway</div></div></div>");
+	$('.ieBad .wrapper .close').click(function() {
+		$('.ieBad .wrapper').hide();
+		$('.ieBad').slideUp();
+	});
+});

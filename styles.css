@@ -1,0 +1,18 @@
+.ieBad {background: #e0e0e0; height: 288px; width: 100%;}
+	.ieBad .wrapper {min-width: 930px; max-width: 1000px; margin: auto; position: relative; height: 100%;}
+		.ieBad .wrapper h1 {font-size: 150px; margin: 0; color: #838282; letter-spacing: -10px; display: inline-block; width: 450px;}
+			.ieBad .wrapper .topRight {position: absolute; right: 0; width: 52%; height: 140px; top: 0;}
+				.ieBad .wrapper .topRight p {font-size: 14px; width: 100%; margin-top: 50px;}
+				.ieBad .wrapper .topRight .browser, .ieBad .wrapper .topRight .browser a {color: #468aca;}
+				.ieBad .wrapper .topRight .browser {width: 49%; height: 55px; display: inline-block;}
+					.ieBad .wrapper .topRight .browser.first {float: left;}
+					.ieBad .wrapper .topRight .browser.last {float: right;}
+
+					.ieBad .wrapper .topRight .browser a {text-decoration: none;}
+					.ieBad .wrapper .topRight .browser .text, .ieBad .wrapper .topRight .browser img {float: left;}
+					.ieBad .wrapper .topRight .browser img {margin-right: 10px;}
+					.ieBad .wrapper .topRight .browser .title {font-size: 20px; margin-top: 10px;}
+					.ieBad .wrapper .topRight .browser .action, .ieBad .wrapper .bottom {font-size: 14px;}
+					.ieBad .wrapper .topRight .browser .action img {float: none; margin-left: 8px;}
+			.ieBad .wrapper .bottom {line-height: 22px;}
+			.ieBad .wrapper .close {cursor: pointer; width: 355px; height: 30px; background: #686868; position: absolute; right: 0; bottom: 0; text-align: center; padding-top: 13px; color: #fff; word-spacing: 5px;}
